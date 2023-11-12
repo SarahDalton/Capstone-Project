@@ -4,16 +4,22 @@ Bertelsmann/Arvato Project
 ### libraries used 
 -numpy
 import numpy as np
+
 -pandas
 import pandas as pd
+
 -matplotlib
 import matplotlib.pyplot as plt
+
 -seaborn
 import seaborn as sns
+
 -math
 import math
+
 -pickle
 import pickle
+
 -sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.cluster import KMeans
@@ -25,8 +31,10 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
+
 -tarfile
 import tarfile
+
 -urllib
 import urllib
 
@@ -55,8 +63,15 @@ I will be using the accuracy as the metrics to measure my model’s performance 
 My motivation for this project is because I work in the financial sector and this is the kind of work I am hoping to complete in my job.
 
 ### files in the repository
-README- Information about the porject 
+README- Information about the project 
+
 Arvato Project Workbook.ipyn- Code for project 
+
+Capstone Project Report.docx- Word document of Report which is published as a blog here: https://medium.com/@sarahdalton1988/capstone-project-8cfdb0af0d49
+
+DIAS Attributes- Values 2017 (1).xlsx- Excel file containing the different attributes used in the datasets with a description and the codes
+
+DIAS Information Levels- Attributes 2017(1).xlsx- Excel file containing the inforamtion levels of the different attributes from the datasets 
 
 ### summary of the results of the analysis
 When I applied the model and tried to find the set of customers who were likely to become customers, the results came back as zero customers, which is not what I would have liked to see!
